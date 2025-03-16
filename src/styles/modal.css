@@ -1,0 +1,61 @@
+@import url(globalStyle.css);
+
+dialog::backdrop{
+    background-color: rgb(0,0,0,0.85);
+}
+#modalCard{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    
+}
+#modalContainer{
+    color: var(--grey-5);
+    background-color: var(--grey-1);
+    width: 400px;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#modalContainer>span{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 270px;
+    right: 40px;
+    margin-bottom: 20px;
+}
+
+#modalContainer>p{
+    font-size: var(--font-size-text3);
+
+}
+
+#modalContainer>input:valid{
+    background-color: var(--grey-0);
+    border: 1px solid var(--grey-0);
+    color: var(--grey-5);
+    padding: 2px;
+    width: 260px;
+    height: 35px;
+}
+
+#modalContainer>input:default{
+    background-color: var(--grey-3);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-5);
+
+}
+
+#modalContainer>input:focus{
+    background-color: var(--grey-0);
+    border: 1px solid var(--grey-5);
+    color: var(--grey-5);
+}

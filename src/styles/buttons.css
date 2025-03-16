@@ -1,0 +1,39 @@
+@import url(globalStyle.css);
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: var(--grey-0);
+    color: var(--grey-5);
+    border: 1px solid;
+    border-color: var(--grey-5);
+    font-size: 14px;
+}
+
+
+.extra__button{
+    font-size: 14px;
+    background-color: var(--brand-color-1);
+    padding: 5px 20px;
+    width: fit-content;
+    border: none;
+}
+
+button:hover, .extra_button:hover{
+    background-color: var(--brand-color-2);
+    border-color: var(--grey-4);
+}
+
+#closeMessage{
+    background-color: var(--grey-2);
+    color: var(--grey-3);
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#closeMessage:hover{
+    background-color: var(--grey-3);
+    color: var(--grey-4)
+}

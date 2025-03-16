@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/globalStyle.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/texts.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <title>TopCar | Aluguel de carros</title>
+</head>
+<body>
+    <header>
+        <img class="header__img" src="./src/images/Cars Retail Website.svg" alt="Logo">
+        <button id="showMessage">Inscreva-se no nosso newsletter</button>
+    </header>
+    <main>
+        <dialog class="modal__dialog" id="modalCard">
+            <div class="modal__div" id="modalContainer">
+                <span class="modal__span">
+                    <h1 class="modal__title title3">Inscreva-se</h1>
+                    <button class="modal__button"  id="closeMessage"> X </button> 
+                </span>
+                <p class="modal__text text2">Para sempre receber as nossas novidades e promoções</p>
+                <input type="text" class="modal__input" placeholder="Digite seu nome...">
+                <input type="email" class="modal__input" placeholder="Digite seu email...">
+                <input type="text" class="modal__input" placeholder="Digite sua cidade...">
+                <input type="text" class="modal__input" placeholder="Digite seu estado...">
+                <button type="submit" class="modal__button extra__button">Inscrever</button>
+            </div>
+        </dialog>
+
+        <div class="introduction__div">
+            <h1 class="introduction__title title1">Vamos cair na <span>estrada</span> juntos!</h1>
+            <p class=" introduction__text text2">Encontre o carro perfeito para sua viagem com conforto, segurança e praticidade!</p>
+            <button class="introduction__button extra__button" id="contato">Entre em contato com nossa equipe</button>
+        </div>
+        <div class="identity__div">
+            <h2 class="identity__title title2">Nossa missão</h2>
+            <span class="identity__span">
+                <p class="identity__text">Proporcionar uma experiência prática e segura na locação de veículos, oferecendo atendimento de qualidade, frota diversificada e preços acessíveis para que nossos clientes viagem com conforto e tranquilidade.</p>
+            </span>            
+        </div>
+
+        <section class="product__section">
+            <ul class="product__ul">
+                <li class="product__li">
+                    <img src="./src/images/original_model_1141.webp" alt="HB20" class="product__img">
+                    <span class="product__span text3">
+                        <p>Marca: Hyundai</p>
+                        <p>Modelo: HB20</p>
+                        <p>Ano: 2022</p>
+                        <p>Categoria: Hatch</p>
+                        <p>Preço: R$120,00/dia</p>
+                    </span>
+                </li>
+                <li class="product__li">
+                    <span class="product__span text3">
+                        <p>Marca: Toyota</p>
+                        <p>Modelo: Corolla</p>
+                        <p>Ano: 2023</p>
+                        <p>Categoria: Sedan</p>
+                        <p>Preço: R$180,00/dia</p>
+                    </span>
+                    <img src="./src/images/Corolla-Banner-2-1.avif" alt="Corolla" class="product__img__1">
+                    
+                </li>
+                <li class="product__li">
+                    <img src="./src/images/Jeep_Compass_Longitude_T270_2025_1_3_TB_4x2_Flex_Aut_0e405cce47.png" alt="Compass" class="product__img">
+                    <span class="product__span text3">
+                        <p>Marca: Jeep</p>
+                        <p>Modelo: Compass</p>
+                        <p>Ano: 2023</p>
+                        <p>Categoria: SUV</p>
+                        <p>Preço: R$250,00/dia</p>
+                    </span>
+                </li>
+                <li class="product__li"> 
+                    <span class="product__span text3">
+                        <p>Marca: Fiat</p>
+                        <p>Modelo: Strada</p>
+                        <p>Ano: 2023</p>
+                        <p>Categoria: Picape</p>
+                        <p>Preço: R$200,00/dia</p>
+                    </span>
+                    <img src="./src/images/model_main_webp_comprar-endurance-cabine-plus-1-3_6db2f09082.png.webp" alt="Strada" class="product__img__1">
+                </li>
+            </ul> 
+        </section>
+        <hr class="separator" id="team">
+        <section class="team__section" >
+            <div>
+                <ul>
+                    <li>
+                        <div>
+                            <span>
+                                <img src="./src/images/user1.svg" alt="Foto Perfil" class="user__img">
+                                <h3 class=" title3">João Lima</h3>
+                                <p class=" text3">Gerente de vendas</p>
+                            </span>
+                            <p class=" text3">Telefone: (11) 99999-9999 <br> Email: joao@mail.com <br> Instagram: @joao_lima</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span>
+                                <img src="./src/images/user2.svg" alt="Foto Perfil" class="user__img">
+                                <h3 
+                                class=" title3">Carlos Silva</h3>
+                                <p class=" text3">Representante comercial</p>
+                            </span>
+                            <p class=" text3">Telefone: (11) 99999-9999 <br> Email: carlos@mail.com <br> Instagram: @carlos_silva</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span>
+                                <img src="./src/images/user3.svg" alt="Foto Perfil" class="user__img">
+                                <h3 class=" title3">Matheus Erick</h3>
+                                <p  class="text3">Representante comercial</p>
+                            </span>
+                            <p class=" text3">Telefone: (11) 99999-9999 <br> Email: matheus@mail.com <br> Instagram: @matheus_erick</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span>
+                                <img src="./src/images/user4.svg" alt="Foto Perfil" class="user__img">
+                                <h3 class="student__title title3">Camila Souza</h3>
+                                <p class=" text3">Gerente de Reservas</p>
+                            </span>
+                            <p class=" text3">Telefone: (11) 99999-9999 <br> Email: camila@mail.com <br> Instagram: @camila_souza</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="baloon__div">
+                <h2 class="baloon__title title2">Precisa de ajuda?</h2>
+                <p class="baloon__text">Ligue para nossa central de atendimento: (11) 9999-9999 ou fale com um de nossos representantes. Teremos o prazer em ajudar!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class="header__img" src="./src/images/Cars Retail Website.svg" alt="Logo">
+    </footer>
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@import url(globalStyle.css);
+
+.title1{
+    font-size: var(--font-size-title1);
+    font-weight: var(--font-weight-big);
+    line-height: var(--line-height-title1);
+}
+
+.title2{
+    font-size: var(--font-size-title2);
+    font-weight: var(--font-weight-big);
+    line-height: var(--line-height-title2);
+}
+
+.title3{
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-small); 
+    line-height: var(--line-height-title3);
+}
+
+.text1{
+    font-size: var(--font-size-text1);
+    font-weight: var(--font-weight-small); 
+    line-height: var(--line-height-text1);
+    color: var(--grey-5);
+}
+
+.text2{
+    font-size: var(--font-size-text2);
+    font-weight: var(--font-weight-small); 
+    line-height: var(--line-height-text2);
+    color: var(--grey-3);
+}
+
+.text3{
+    font-size: var(--font-size-text3);
+    font-weight: var(--font-weight-small); 
+    line-height: var(--line-height-text3);
+    color: var(--grey-3);
+}
+
+main> div> h1>span{
+    color: var( --brand-color-1);
+}
